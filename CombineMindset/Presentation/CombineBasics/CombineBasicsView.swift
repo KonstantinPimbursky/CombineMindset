@@ -11,6 +11,7 @@ struct CombineBasicsView: View {
     var body: some View {
         List {
             NavigationLink("@Published & ObservableObject", destination: CombinePublishedView())
+            NavigationLink("PassthroughSubject", destination: PassthroughSubjectView())
         }
         .navigationTitle("Combine Basics")
         .navigationBarTitleDisplayMode(.inline)

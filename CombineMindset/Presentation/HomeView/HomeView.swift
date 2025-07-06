@@ -21,7 +21,7 @@ struct HomeView: View {
             }
             .scrollBounceBehavior(.basedOnSize)
             .safeAreaPadding(.vertical, 24)
-            .navigationTitle(Text("Combine Mindset"))
+            .navigationTitle("Combine Mindset")
             .navigationBarTitleDisplayMode(.large)
         }
     }

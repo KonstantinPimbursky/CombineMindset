@@ -39,7 +39,7 @@ Each stage includes demo examples and hands-on coding challenges.
 
 ## 🚧 Project Status
 
-🔜 Stage 1 – Basics  
+✅ Stage 1 – Basics  
 🔜 Stage 2 – Operators  
 🔜 Stage 3 – MVVM  
 🔜 Stage 4 – Networking

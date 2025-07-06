@@ -14,13 +14,12 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Combine Basics", destination: CombineBasicsView())
-                NavigationLink("Combine Operators", destination: CombineOperatorsView())
-                NavigationLink("MVVM Integration", destination: MVVMIntegrationView())
-                NavigationLink("Networking", destination: NetworkingView())
+                Section("Combine Basics") {
+                    NavigationLink("@Published & ObservableObject", destination: CombinePublishedView())
+                    NavigationLink("PassthroughSubject", destination: PassthroughSubjectView())
+                }
             }
             .scrollBounceBehavior(.basedOnSize)
-            .safeAreaPadding(.vertical, 24)
             .navigationTitle("Combine Mindset")
             .navigationBarTitleDisplayMode(.large)
         }

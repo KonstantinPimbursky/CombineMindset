@@ -20,7 +20,7 @@ The goal is to develop a solid mindset and fluency when working with Combine in 
 The project follows a 4-stage plan:
 
 1. **Combine Basics** – Publishers, Subscribers, Subjects
-2. **Operators Mastery** – map, filter, debounce, combineLatest, etc.
+2. **Combine Operators** – map, filter, debounce, combineLatest, etc.
 3. **MVVM Integration** – `@Published`, `PassthroughSubject`, `ObservableObject`
 4. **Networking with Combine** – `URLSession`, `catch`, `retry`, and more
 
@@ -39,7 +39,7 @@ Each stage includes demo examples and hands-on coding challenges.
 
 ## 🚧 Project Status
 
-🔜 Stage 1 – Basics  
+✅ Stage 1 – Basics  
 🔜 Stage 2 – Operators  
 🔜 Stage 3 – MVVM  
 🔜 Stage 4 – Networking

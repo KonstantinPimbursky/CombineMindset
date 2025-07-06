@@ -14,14 +14,15 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Combine Basics", destination: { CombineBasicsView() })
-                NavigationLink("Operators Mastery", destination: { OperatorsMasteryView() })
-                NavigationLink("MVVM Integration", destination: { MVVMIntegrationView() })
-                NavigationLink("Networking with Combine", destination: { NetworkingView() })
+                NavigationLink("Combine Basics", destination: CombineBasicsView())
+                NavigationLink("Combine Operators", destination: CombineOperatorsView())
+                NavigationLink("MVVM Integration", destination: MVVMIntegrationView())
+                NavigationLink("Networking", destination: NetworkingView())
             }
             .scrollBounceBehavior(.basedOnSize)
             .safeAreaPadding(.vertical, 24)
             .navigationTitle(Text("Combine Mindset"))
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

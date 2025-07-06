@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CombineBasicsView: View {
     var body: some View {
-        Text("Combine Basics")
+        List {
+            NavigationLink("@Published & ObservableObject", destination: CombinePublishedView())
+        }
+        .navigationTitle("Combine Basics")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

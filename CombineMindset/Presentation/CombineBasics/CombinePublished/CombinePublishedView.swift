@@ -29,6 +29,7 @@ struct CombinePublishedView: View {
         }
         .padding(24)
         .navigationTitle("@Published & ObservableObject")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

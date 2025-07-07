@@ -16,7 +16,7 @@ final class PassthroughSubjectViewModel: ObservableObject {
     
     // MARK: - Private Properties
     
-    private var cancellables = Set<AnyCancellable>()
+    private var subscriptions = Set<AnyCancellable>()
     
     // MARK: - Initializers
     
@@ -31,6 +31,6 @@ final class PassthroughSubjectViewModel: ObservableObject {
             .sink { _ in
                 print("Button was tapped")
             }
-            .store(in: &cancellables)
+            .store(in: &subscriptions)
     }
 }

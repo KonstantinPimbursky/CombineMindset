@@ -18,10 +18,18 @@ struct HomeView: View {
                     NavigationLink("@Published & ObservableObject", destination: CombinePublishedView())
                     NavigationLink("PassthroughSubject", destination: PassthroughSubjectView())
                 }
+                
+                Section("Combine Operators") {
+                    NavigationLink("Transform", destination: TransformingOperatorsView())
+                    NavigationLink("Filter", destination: FilteringOperatorsView())
+                    NavigationLink("Combine", destination: Text("Combine"))
+                    NavigationLink("Time manipulation", destination: Text("Time manipulation"))
+                    NavigationLink("Sequence", destination: Text("Sequence"))
+                    NavigationLink("Query", destination: Text("Query"))
+                }
             }
             .scrollBounceBehavior(.basedOnSize)
             .navigationTitle("Combine Mindset")
-            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

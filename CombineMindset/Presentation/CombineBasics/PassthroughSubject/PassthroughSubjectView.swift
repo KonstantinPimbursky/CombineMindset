@@ -22,6 +22,7 @@ struct PassthroughSubjectView: View {
             Text("Button to tap")
         }
         .navigationTitle("PassthroughSubject")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

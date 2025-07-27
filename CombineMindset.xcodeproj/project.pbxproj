@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		B53995722E36441400D0CC59 /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995712E36441400D0CC59 /* JustView.swift */; };
 		B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995732E36442200D0CC59 /* JustViewModel.swift */; };
+		B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995782E364ACE00D0CC59 /* SubscriberView.swift */; };
+		B539957B2E364ADB00D0CC59 /* SubscriberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539957A2E364ADB00D0CC59 /* SubscriberViewModel.swift */; };
 		B5914AA12E1A675900756EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5914A9D2E1A675900756EB4 /* Assets.xcassets */; };
 		B5914AA22E1A675900756EB4 /* CombineMindsetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914A9E2E1A675900756EB4 /* CombineMindsetApp.swift */; };
 		B5914AA32E1A675900756EB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914A9F2E1A675900756EB4 /* HomeView.swift */; };
-		B5914AAD2E1A73F700756EB4 /* CombineBasicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AAC2E1A73F700756EB4 /* CombineBasicsView.swift */; };
-		B5914ABF2E1A83C100756EB4 /* CombinePublishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914ABE2E1A83C100756EB4 /* CombinePublishedView.swift */; };
-		B5914AC12E1A8EAD00756EB4 /* CombinePublishedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC02E1A8EAD00756EB4 /* CombinePublishedViewModel.swift */; };
 		B5914AC42E1A91A300756EB4 /* PassthroughSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC32E1A91A300756EB4 /* PassthroughSubjectView.swift */; };
 		B5914AC62E1A922300756EB4 /* PassthroughSubjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC52E1A922300756EB4 /* PassthroughSubjectViewModel.swift */; };
 		B5914ACC2E1AC77900756EB4 /* TransformingOperatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914ACB2E1AC77900756EB4 /* TransformingOperatorsView.swift */; };
@@ -26,13 +25,12 @@
 /* Begin PBXFileReference section */
 		B53995712E36441400D0CC59 /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
 		B53995732E36442200D0CC59 /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
+		B53995782E364ACE00D0CC59 /* SubscriberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberView.swift; sourceTree = "<group>"; };
+		B539957A2E364ADB00D0CC59 /* SubscriberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberViewModel.swift; sourceTree = "<group>"; };
 		B5914A892E1A669C00756EB4 /* CombineMindset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineMindset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5914A9D2E1A675900756EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5914A9E2E1A675900756EB4 /* CombineMindsetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineMindsetApp.swift; sourceTree = "<group>"; };
 		B5914A9F2E1A675900756EB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B5914AAC2E1A73F700756EB4 /* CombineBasicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineBasicsView.swift; sourceTree = "<group>"; };
-		B5914ABE2E1A83C100756EB4 /* CombinePublishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePublishedView.swift; sourceTree = "<group>"; };
-		B5914AC02E1A8EAD00756EB4 /* CombinePublishedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinePublishedViewModel.swift; sourceTree = "<group>"; };
 		B5914AC32E1A91A300756EB4 /* PassthroughSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectView.swift; sourceTree = "<group>"; };
 		B5914AC52E1A922300756EB4 /* PassthroughSubjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectViewModel.swift; sourceTree = "<group>"; };
 		B5914ACB2E1AC77900756EB4 /* TransformingOperatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsView.swift; sourceTree = "<group>"; };
@@ -59,6 +57,15 @@
 				B53995732E36442200D0CC59 /* JustViewModel.swift */,
 			);
 			path = Just;
+			sourceTree = "<group>";
+		};
+		B53995752E364A9F00D0CC59 /* Subscriber */ = {
+			isa = PBXGroup;
+			children = (
+				B53995782E364ACE00D0CC59 /* SubscriberView.swift */,
+				B539957A2E364ADB00D0CC59 /* SubscriberViewModel.swift */,
+			);
+			path = Subscriber;
 			sourceTree = "<group>";
 		};
 		B5914A802E1A669C00756EB4 = {
@@ -126,9 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				B53995702E36440200D0CC59 /* Just */,
-				B5914ABD2E1A838B00756EB4 /* CombinePublished */,
+				B53995752E364A9F00D0CC59 /* Subscriber */,
 				B5914AC22E1A919400756EB4 /* PassthroughSubject */,
-				B5914AAC2E1A73F700756EB4 /* CombineBasicsView.swift */,
 			);
 			path = CombineBasics;
 			sourceTree = "<group>";
@@ -138,15 +144,6 @@
 			children = (
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		B5914ABD2E1A838B00756EB4 /* CombinePublished */ = {
-			isa = PBXGroup;
-			children = (
-				B5914ABE2E1A83C100756EB4 /* CombinePublishedView.swift */,
-				B5914AC02E1A8EAD00756EB4 /* CombinePublishedViewModel.swift */,
-			);
-			path = CombinePublished;
 			sourceTree = "<group>";
 		};
 		B5914AC22E1A919400756EB4 /* PassthroughSubject */ = {
@@ -264,13 +261,12 @@
 				B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */,
 				B5914AD12E1AC9C300756EB4 /* TransformingOperatorsViewModel.swift in Sources */,
 				B5914AC42E1A91A300756EB4 /* PassthroughSubjectView.swift in Sources */,
-				B5914AAD2E1A73F700756EB4 /* CombineBasicsView.swift in Sources */,
+				B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */,
 				B5914ACF2E1AC7FD00756EB4 /* FilteringOperatorsView.swift in Sources */,
-				B5914AC12E1A8EAD00756EB4 /* CombinePublishedViewModel.swift in Sources */,
 				B5914AA22E1A675900756EB4 /* CombineMindsetApp.swift in Sources */,
 				B5914AC62E1A922300756EB4 /* PassthroughSubjectViewModel.swift in Sources */,
-				B5914ABF2E1A83C100756EB4 /* CombinePublishedView.swift in Sources */,
 				B5914ACC2E1AC77900756EB4 /* TransformingOperatorsView.swift in Sources */,
+				B539957B2E364ADB00D0CC59 /* SubscriberViewModel.swift in Sources */,
 				B5914AD32E1ACC6E00756EB4 /* TransformingOperatorsModel.swift in Sources */,
 				B53995722E36441400D0CC59 /* JustView.swift in Sources */,
 				B5914AA32E1A675900756EB4 /* HomeView.swift in Sources */,

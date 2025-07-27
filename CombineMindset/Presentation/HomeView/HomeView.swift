@@ -16,7 +16,7 @@ struct HomeView: View {
             List {
                 Section("Combine Basics") {
                     NavigationLink("Just & Fail", destination: JustView())
-                    NavigationLink("@Published & ObservableObject", destination: CombinePublishedView())
+                    NavigationLink("Subscriber", destination: SubscriberView())
                     NavigationLink("PassthroughSubject", destination: PassthroughSubjectView())
                 }
                 

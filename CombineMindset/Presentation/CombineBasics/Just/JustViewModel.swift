@@ -8,6 +8,9 @@
 import Combine
 import Foundation
 
+/// Публикация и получение значений с Just и Fail
+///
+/// **Цель:** Показать, как `Just` публикует одно значение, а `Fail` вызывает ошибку. Это поможет понять основы работы `Publisher` и `Subscriber`.
 final class JustViewModel: ObservableObject {
     
     // MARK: - Types
@@ -30,6 +33,7 @@ final class JustViewModel: ObservableObject {
     
     // MARK: - Public Methods
     
+    /// Отправляет значение через `Just`
     func sendJust() {
         Just("Hello from Combine!")
             .sink { [weak self] value in
@@ -38,6 +42,7 @@ final class JustViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
+    /// Вызывает ошибку через `Fail`
     func sendFail() {
         Fail<String, SampleError>(error: .failed)
             .sink(receiveCompletion: { [weak self] completion in

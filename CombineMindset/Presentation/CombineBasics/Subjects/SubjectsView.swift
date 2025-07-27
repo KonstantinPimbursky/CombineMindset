@@ -66,10 +66,14 @@ struct SubjectsView: View {
                         .cornerRadius(8)
                 }
                 
-                Button("Reset") {
-                    viewModel.resetSubjects()
+                Button("Reset output") {
+                    viewModel.resetValue()
                 }
                 .padding(.top, 20)
+                
+                Button("Resubscribe") {
+                    viewModel.resubscribeToSubjects()
+                }
             }
             .padding()
         }

@@ -8,6 +8,16 @@
 import Combine
 import Foundation
 
+/// Показывает работу с `PassthroughSubject` и `CurrentValueSubject`
+///
+/// **Цель:**
+/// Показать разницу между `PassthroughSubject` и `CurrentValueSubject`:
+/// - Как они отправляют значения
+/// - Что получают подписчики
+/// - Как хранят последнее значение (или не хранят)
+///
+/// **Поведение:**
+///
 final class SubjectsViewModel: ObservableObject {
     
     // MARK: - Public Properties
@@ -40,9 +50,14 @@ final class SubjectsViewModel: ObservableObject {
         currentValueSubject.send(text)
     }
     
-    func resetSubjects() {
+    func resetValue() {
         passthroughOutput = "—"
         currentValueOutput = "—"
+    }
+    
+    func resubscribeToSubjects() {
+        cancellables.removeAll()
+        subscribeToSubjects()
     }
     
     // MARK: - Private Properties

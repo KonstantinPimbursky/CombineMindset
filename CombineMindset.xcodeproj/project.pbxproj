@@ -14,8 +14,8 @@
 		B5914AA12E1A675900756EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5914A9D2E1A675900756EB4 /* Assets.xcassets */; };
 		B5914AA22E1A675900756EB4 /* CombineMindsetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914A9E2E1A675900756EB4 /* CombineMindsetApp.swift */; };
 		B5914AA32E1A675900756EB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914A9F2E1A675900756EB4 /* HomeView.swift */; };
-		B5914AC42E1A91A300756EB4 /* PassthroughSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC32E1A91A300756EB4 /* PassthroughSubjectView.swift */; };
-		B5914AC62E1A922300756EB4 /* PassthroughSubjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC52E1A922300756EB4 /* PassthroughSubjectViewModel.swift */; };
+		B5914AC42E1A91A300756EB4 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC32E1A91A300756EB4 /* SubjectsView.swift */; };
+		B5914AC62E1A922300756EB4 /* SubjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AC52E1A922300756EB4 /* SubjectsViewModel.swift */; };
 		B5914ACC2E1AC77900756EB4 /* TransformingOperatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914ACB2E1AC77900756EB4 /* TransformingOperatorsView.swift */; };
 		B5914ACF2E1AC7FD00756EB4 /* FilteringOperatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914ACE2E1AC7FD00756EB4 /* FilteringOperatorsView.swift */; };
 		B5914AD12E1AC9C300756EB4 /* TransformingOperatorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5914AD02E1AC9C300756EB4 /* TransformingOperatorsViewModel.swift */; };
@@ -31,8 +31,8 @@
 		B5914A9D2E1A675900756EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5914A9E2E1A675900756EB4 /* CombineMindsetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineMindsetApp.swift; sourceTree = "<group>"; };
 		B5914A9F2E1A675900756EB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B5914AC32E1A91A300756EB4 /* PassthroughSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectView.swift; sourceTree = "<group>"; };
-		B5914AC52E1A922300756EB4 /* PassthroughSubjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectViewModel.swift; sourceTree = "<group>"; };
+		B5914AC32E1A91A300756EB4 /* SubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsView.swift; sourceTree = "<group>"; };
+		B5914AC52E1A922300756EB4 /* SubjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewModel.swift; sourceTree = "<group>"; };
 		B5914ACB2E1AC77900756EB4 /* TransformingOperatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsView.swift; sourceTree = "<group>"; };
 		B5914ACE2E1AC7FD00756EB4 /* FilteringOperatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringOperatorsView.swift; sourceTree = "<group>"; };
 		B5914AD02E1AC9C300756EB4 /* TransformingOperatorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingOperatorsViewModel.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			children = (
 				B53995702E36440200D0CC59 /* Just */,
 				B53995752E364A9F00D0CC59 /* Subscriber */,
-				B5914AC22E1A919400756EB4 /* PassthroughSubject */,
+				B5914AC22E1A919400756EB4 /* Subjects */,
 			);
 			path = CombineBasics;
 			sourceTree = "<group>";
@@ -146,13 +146,13 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		B5914AC22E1A919400756EB4 /* PassthroughSubject */ = {
+		B5914AC22E1A919400756EB4 /* Subjects */ = {
 			isa = PBXGroup;
 			children = (
-				B5914AC32E1A91A300756EB4 /* PassthroughSubjectView.swift */,
-				B5914AC52E1A922300756EB4 /* PassthroughSubjectViewModel.swift */,
+				B5914AC32E1A91A300756EB4 /* SubjectsView.swift */,
+				B5914AC52E1A922300756EB4 /* SubjectsViewModel.swift */,
 			);
-			path = PassthroughSubject;
+			path = Subjects;
 			sourceTree = "<group>";
 		};
 		B5914AC72E1AC71700756EB4 /* CombineOperators */ = {
@@ -260,11 +260,11 @@
 			files = (
 				B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */,
 				B5914AD12E1AC9C300756EB4 /* TransformingOperatorsViewModel.swift in Sources */,
-				B5914AC42E1A91A300756EB4 /* PassthroughSubjectView.swift in Sources */,
+				B5914AC42E1A91A300756EB4 /* SubjectsView.swift in Sources */,
 				B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */,
 				B5914ACF2E1AC7FD00756EB4 /* FilteringOperatorsView.swift in Sources */,
 				B5914AA22E1A675900756EB4 /* CombineMindsetApp.swift in Sources */,
-				B5914AC62E1A922300756EB4 /* PassthroughSubjectViewModel.swift in Sources */,
+				B5914AC62E1A922300756EB4 /* SubjectsViewModel.swift in Sources */,
 				B5914ACC2E1AC77900756EB4 /* TransformingOperatorsView.swift in Sources */,
 				B539957B2E364ADB00D0CC59 /* SubscriberViewModel.swift in Sources */,
 				B5914AD32E1ACC6E00756EB4 /* TransformingOperatorsModel.swift in Sources */,

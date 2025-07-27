@@ -17,7 +17,7 @@ struct HomeView: View {
                 Section("Combine Basics") {
                     NavigationLink("Just & Fail", destination: JustView())
                     NavigationLink("Subscriber", destination: SubscriberView())
-                    NavigationLink("PassthroughSubject", destination: PassthroughSubjectView())
+                    NavigationLink("Subjects", destination: SubjectsView())
                 }
                 
                 Section("Combine Operators") {

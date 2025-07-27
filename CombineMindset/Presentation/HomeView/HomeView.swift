@@ -18,6 +18,7 @@ struct HomeView: View {
                     NavigationLink("Just & Fail", destination: JustView())
                     NavigationLink("Subscriber", destination: SubscriberView())
                     NavigationLink("Subjects", destination: SubjectsView())
+                    NavigationLink("TextField → Combine → Label", destination: BindView())
                 }
                 
                 Section("Combine Operators") {

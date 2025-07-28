@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B5339DB52E36725C0067C0E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339DB42E36725C0067C0E4 /* MapView.swift */; };
 		B5339DB72E3672650067C0E4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339DB62E3672650067C0E4 /* MapViewModel.swift */; };
+		B5339E112E37DB780067C0E4 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E102E37DB780067C0E4 /* FilterView.swift */; };
+		B5339E132E37DB820067C0E4 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E122E37DB820067C0E4 /* FilterViewModel.swift */; };
 		B53995722E36441400D0CC59 /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995712E36441400D0CC59 /* JustView.swift */; };
 		B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995732E36442200D0CC59 /* JustViewModel.swift */; };
 		B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995782E364ACE00D0CC59 /* SubscriberView.swift */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B5339DB42E36725C0067C0E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B5339DB62E3672650067C0E4 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B5339E102E37DB780067C0E4 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		B5339E122E37DB820067C0E4 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		B53995712E36441400D0CC59 /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
 		B53995732E36442200D0CC59 /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
 		B53995782E364ACE00D0CC59 /* SubscriberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,15 @@
 				B5339DB62E3672650067C0E4 /* MapViewModel.swift */,
 			);
 			path = Map;
+			sourceTree = "<group>";
+		};
+		B5339E0F2E37DB600067C0E4 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				B5339E102E37DB780067C0E4 /* FilterView.swift */,
+				B5339E122E37DB820067C0E4 /* FilterViewModel.swift */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 		B53995702E36440200D0CC59 /* Just */ = {
@@ -169,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				B5339DB32E36722F0067C0E4 /* Map */,
+				B5339E0F2E37DB600067C0E4 /* Filter */,
 			);
 			path = CombineOperators;
 			sourceTree = "<group>";
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5339E132E37DB820067C0E4 /* FilterViewModel.swift in Sources */,
+				B5339E112E37DB780067C0E4 /* FilterView.swift in Sources */,
 				B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */,
 				B5BEC2512E365B1C00428750 /* BindViewModel.swift in Sources */,
 				B5914AC42E1A91A300756EB4 /* SubjectsView.swift in Sources */,

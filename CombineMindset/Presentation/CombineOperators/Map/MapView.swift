@@ -28,7 +28,8 @@ struct MapView: View {
             Spacer()
         }
         .padding()
-        .navigationTitle(".map")
+        .navigationTitle(".map(_:)")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

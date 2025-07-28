@@ -15,13 +15,23 @@ struct HomeView: View {
         NavigationStack {
             List {
                 Section("Combine Basics") {
-                    NavigationLink("@Published & ObservableObject", destination: CombinePublishedView())
-                    NavigationLink("PassthroughSubject", destination: PassthroughSubjectView())
+                    NavigationLink("Just & Fail", destination: JustView())
+                    NavigationLink("Subscriber", destination: SubscriberView())
+                    NavigationLink("Subjects", destination: SubjectsView())
+                    NavigationLink("TextField → Combine → Label", destination: BindView())
+                }
+                
+                Section("Combine Operators") {
+                    NavigationLink(".map", destination: MapView())
+                    NavigationLink(".filter", destination: FilterView())
+                    NavigationLink(".debounce", destination: DebounceView())
+                    NavigationLink(".combineLatest", destination: CombineLatestView())
+                    NavigationLink(".zip", destination: ZipView())
+                    NavigationLink(".catch / .retry", destination: ErrorHandlingView())
                 }
             }
             .scrollBounceBehavior(.basedOnSize)
             .navigationTitle("Combine Mindset")
-            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

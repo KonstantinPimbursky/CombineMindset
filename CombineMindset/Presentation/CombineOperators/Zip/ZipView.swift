@@ -51,6 +51,7 @@ struct ZipView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+
 #Preview {
     ZipView()
 }

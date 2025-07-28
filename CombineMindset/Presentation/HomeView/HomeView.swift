@@ -27,7 +27,7 @@ struct HomeView: View {
                     NavigationLink(".debounce", destination: DebounceView())
                     NavigationLink(".combineLatest", destination: CombineLatestView())
                     NavigationLink(".zip", destination: ZipView())
-                    NavigationLink(".catch / .retry", destination: Text("catch / retry"))
+                    NavigationLink(".catch / .retry", destination: ErrorHandlingView())
                 }
             }
             .scrollBounceBehavior(.basedOnSize)

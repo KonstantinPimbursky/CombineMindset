@@ -17,6 +17,8 @@
 		B5339E1F2E37E2C80067C0E4 /* CombineLatestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E1E2E37E2C80067C0E4 /* CombineLatestViewModel.swift */; };
 		B5339E222E37E5ED0067C0E4 /* ZipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E212E37E5ED0067C0E4 /* ZipView.swift */; };
 		B5339E242E37E5F80067C0E4 /* ZipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E232E37E5F80067C0E4 /* ZipViewModel.swift */; };
+		B5339E272E37E8B90067C0E4 /* ErrorHandlingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E262E37E8B90067C0E4 /* ErrorHandlingView.swift */; };
+		B5339E292E37E8C00067C0E4 /* ErrorHandlingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E282E37E8C00067C0E4 /* ErrorHandlingViewModel.swift */; };
 		B53995722E36441400D0CC59 /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995712E36441400D0CC59 /* JustView.swift */; };
 		B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995732E36442200D0CC59 /* JustViewModel.swift */; };
 		B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995782E364ACE00D0CC59 /* SubscriberView.swift */; };
@@ -41,6 +43,8 @@
 		B5339E1E2E37E2C80067C0E4 /* CombineLatestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewModel.swift; sourceTree = "<group>"; };
 		B5339E212E37E5ED0067C0E4 /* ZipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipView.swift; sourceTree = "<group>"; };
 		B5339E232E37E5F80067C0E4 /* ZipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewModel.swift; sourceTree = "<group>"; };
+		B5339E262E37E8B90067C0E4 /* ErrorHandlingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingView.swift; sourceTree = "<group>"; };
+		B5339E282E37E8C00067C0E4 /* ErrorHandlingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingViewModel.swift; sourceTree = "<group>"; };
 		B53995712E36441400D0CC59 /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
 		B53995732E36442200D0CC59 /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
 		B53995782E364ACE00D0CC59 /* SubscriberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 				B5339E232E37E5F80067C0E4 /* ZipViewModel.swift */,
 			);
 			path = Zip;
+			sourceTree = "<group>";
+		};
+		B5339E252E37E8AA0067C0E4 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				B5339E262E37E8B90067C0E4 /* ErrorHandlingView.swift */,
+				B5339E282E37E8C00067C0E4 /* ErrorHandlingViewModel.swift */,
+			);
+			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
 		B53995702E36440200D0CC59 /* Just */ = {
@@ -225,6 +238,7 @@
 				B5339E142E37DF480067C0E4 /* Debounce */,
 				B5339E1B2E37E2AE0067C0E4 /* CombineLatest */,
 				B5339E202E37E5E10067C0E4 /* Zip */,
+				B5339E252E37E8AA0067C0E4 /* ErrorHandling */,
 			);
 			path = CombineOperators;
 			sourceTree = "<group>";
@@ -315,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5339E242E37E5F80067C0E4 /* ZipViewModel.swift in Sources */,
+				B5339E272E37E8B90067C0E4 /* ErrorHandlingView.swift in Sources */,
 				B5339E132E37DB820067C0E4 /* FilterViewModel.swift in Sources */,
 				B5339E112E37DB780067C0E4 /* FilterView.swift in Sources */,
 				B5339E1D2E37E2BF0067C0E4 /* CombineLatestView.swift in Sources */,
@@ -325,6 +340,7 @@
 				B5914AC42E1A91A300756EB4 /* SubjectsView.swift in Sources */,
 				B5339DB52E36725C0067C0E4 /* MapView.swift in Sources */,
 				B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */,
+				B5339E292E37E8C00067C0E4 /* ErrorHandlingViewModel.swift in Sources */,
 				B5914AA22E1A675900756EB4 /* CombineMindsetApp.swift in Sources */,
 				B5339E162E37DF5D0067C0E4 /* DebounceView.swift in Sources */,
 				B5BEC24F2E365B0100428750 /* BindView.swift in Sources */,

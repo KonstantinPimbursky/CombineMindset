@@ -22,12 +22,12 @@ struct HomeView: View {
                 }
                 
                 Section("Combine Operators") {
-                    NavigationLink("Transform", destination: TransformingOperatorsView())
-                    NavigationLink("Filter", destination: FilteringOperatorsView())
-                    NavigationLink("Combine", destination: Text("Combine"))
-                    NavigationLink("Time manipulation", destination: Text("Time manipulation"))
-                    NavigationLink("Sequence", destination: Text("Sequence"))
-                    NavigationLink("Query", destination: Text("Query"))
+                    NavigationLink(".map", destination: Text("map"))
+                    NavigationLink(".filter", destination: Text("filter"))
+                    NavigationLink(".debounce", destination: Text("debounce"))
+                    NavigationLink(".combineLatest", destination: Text("combineLatest"))
+                    NavigationLink(".zip", destination: Text("zip"))
+                    NavigationLink(".catch / .retry", destination: Text("catch / retry"))
                 }
             }
             .scrollBounceBehavior(.basedOnSize)

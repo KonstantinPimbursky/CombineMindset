@@ -13,6 +13,8 @@
 		B5339E132E37DB820067C0E4 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E122E37DB820067C0E4 /* FilterViewModel.swift */; };
 		B5339E162E37DF5D0067C0E4 /* DebounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E152E37DF5D0067C0E4 /* DebounceView.swift */; };
 		B5339E182E37DF700067C0E4 /* DebounceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E172E37DF700067C0E4 /* DebounceViewModel.swift */; };
+		B5339E1D2E37E2BF0067C0E4 /* CombineLatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E1C2E37E2BF0067C0E4 /* CombineLatestView.swift */; };
+		B5339E1F2E37E2C80067C0E4 /* CombineLatestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5339E1E2E37E2C80067C0E4 /* CombineLatestViewModel.swift */; };
 		B53995722E36441400D0CC59 /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995712E36441400D0CC59 /* JustView.swift */; };
 		B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995732E36442200D0CC59 /* JustViewModel.swift */; };
 		B53995792E364ACE00D0CC59 /* SubscriberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53995782E364ACE00D0CC59 /* SubscriberView.swift */; };
@@ -33,6 +35,8 @@
 		B5339E122E37DB820067C0E4 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		B5339E152E37DF5D0067C0E4 /* DebounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceView.swift; sourceTree = "<group>"; };
 		B5339E172E37DF700067C0E4 /* DebounceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewModel.swift; sourceTree = "<group>"; };
+		B5339E1C2E37E2BF0067C0E4 /* CombineLatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestView.swift; sourceTree = "<group>"; };
+		B5339E1E2E37E2C80067C0E4 /* CombineLatestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewModel.swift; sourceTree = "<group>"; };
 		B53995712E36441400D0CC59 /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
 		B53995732E36442200D0CC59 /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
 		B53995782E364ACE00D0CC59 /* SubscriberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,15 @@
 				B5339E172E37DF700067C0E4 /* DebounceViewModel.swift */,
 			);
 			path = Debounce;
+			sourceTree = "<group>";
+		};
+		B5339E1B2E37E2AE0067C0E4 /* CombineLatest */ = {
+			isa = PBXGroup;
+			children = (
+				B5339E1C2E37E2BF0067C0E4 /* CombineLatestView.swift */,
+				B5339E1E2E37E2C80067C0E4 /* CombineLatestViewModel.swift */,
+			);
+			path = CombineLatest;
 			sourceTree = "<group>";
 		};
 		B53995702E36440200D0CC59 /* Just */ = {
@@ -197,6 +210,7 @@
 				B5339DB32E36722F0067C0E4 /* Map */,
 				B5339E0F2E37DB600067C0E4 /* Filter */,
 				B5339E142E37DF480067C0E4 /* Debounce */,
+				B5339E1B2E37E2AE0067C0E4 /* CombineLatest */,
 			);
 			path = CombineOperators;
 			sourceTree = "<group>";
@@ -288,6 +302,7 @@
 			files = (
 				B5339E132E37DB820067C0E4 /* FilterViewModel.swift in Sources */,
 				B5339E112E37DB780067C0E4 /* FilterView.swift in Sources */,
+				B5339E1D2E37E2BF0067C0E4 /* CombineLatestView.swift in Sources */,
 				B53995742E36442200D0CC59 /* JustViewModel.swift in Sources */,
 				B5339E182E37DF700067C0E4 /* DebounceViewModel.swift in Sources */,
 				B5BEC2512E365B1C00428750 /* BindViewModel.swift in Sources */,
@@ -302,6 +317,7 @@
 				B53995722E36441400D0CC59 /* JustView.swift in Sources */,
 				B5914AA32E1A675900756EB4 /* HomeView.swift in Sources */,
 				B5339DB72E3672650067C0E4 /* MapViewModel.swift in Sources */,
+				B5339E1F2E37E2C80067C0E4 /* CombineLatestViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

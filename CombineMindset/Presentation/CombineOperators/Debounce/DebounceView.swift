@@ -37,3 +37,7 @@ struct DebounceView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+
+#Preview {
+    DebounceView()
+}

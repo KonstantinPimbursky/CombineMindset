@@ -40,3 +40,7 @@ struct CombineLatestView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+
+#Preview {
+    CombineLatestView()
+}

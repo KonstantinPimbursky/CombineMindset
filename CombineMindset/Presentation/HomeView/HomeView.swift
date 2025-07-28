@@ -24,7 +24,7 @@ struct HomeView: View {
                 Section("Combine Operators") {
                     NavigationLink(".map", destination: MapView())
                     NavigationLink(".filter", destination: FilterView())
-                    NavigationLink(".debounce", destination: Text("debounce"))
+                    NavigationLink(".debounce", destination: DebounceView())
                     NavigationLink(".combineLatest", destination: Text("combineLatest"))
                     NavigationLink(".zip", destination: Text("zip"))
                     NavigationLink(".catch / .retry", destination: Text("catch / retry"))

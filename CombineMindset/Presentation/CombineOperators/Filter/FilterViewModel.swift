@@ -8,6 +8,11 @@
 import Combine
 import Foundation
 
+/// FilterExample — фильтрация значений с помощью filter
+///
+/// **Цель:**
+/// Показать, как filter пропускает только те значения, которые соответствуют определённому условию.
+/// Например: только чётные числа, только строки длиннее 5 символов и т.д.
 final class FilterViewModel: ObservableObject {
     
     // MARK: - Public Properties

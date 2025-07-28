@@ -8,6 +8,11 @@
 import Combine
 import Foundation
 
+/// MapExample — трансформация значений через map
+///
+/// Цель:
+/// Показать, как map преобразует поток данных.
+/// Простой случай: пользователь вводит текст → он автоматически преобразуется в верхний регистр или, например, в длину строки.
 final class MapViewModel: ObservableObject {
     
     // MARK: - Public Properties
